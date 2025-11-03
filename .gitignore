@@ -58,6 +58,11 @@ Thumbs.db
 # Crashlytics
 crashlytics-build.properties
 
+!Build/
+!Build/Build/
+!Build/index.html 
+!Build/TemplateData/
+
 # ========== PENGEcUALIAN UNTUK WEBGL BUILD ==========
 # FILE INI JANGAN DIIGNORE:
 
