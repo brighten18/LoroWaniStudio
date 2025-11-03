@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameTest - Loro Wani Studio</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/Loro.png" class="logo-icon" alt="Loro Wani Studio">
+                <span>Loro Wani Studio</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Beranda</a></li>
+                    <li><a href="#games">Game Lain</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#play">Main Game</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Unity Game Section -->
+        <section class="unity-game-section" id="play">
+        <div class="container">
+            <h1 class="page-title">GameTest Demo</h1>
+            <p class="page-subtitle">Game Unity 2D oleh Loro Wani Studio</p>
+            <!-- Game Iframe -->
+            <div class="unity-iframe-container">
+                <iframe 
+                    src="Build/index.html" 
+                    class="unity-iframe"
+                    allow="autoplay; fullscreen" 
+                    allowfullscreen
+                    title="GameTest Unity Game - Platformer 2D Adventure"
+                    loading="lazy">
+                </iframe>
+                <!-- Fallback Message -->
+                <div class="iframe-fallback">
+                    <div class="fallback-content">
+                        <h3>Game Sedang Dimuat...</h3>
+                        <p>Jika game tidak muncul, pastikan:</p>
+                        <ul>
+                            <li>Browser mendukung WebGL</li>
+                            <li>File game tersedia di folder Build/</li>
+                            <li>Tidak ada pemblokiran konten</li>
+                        </ul>
+                        <a href="Build/index.html" class="fallback-btn" target="_blank">Buka Game di Tab Baru</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Game Information & Controls Guide - DIGABUNGKAN -->
+            <div class="game-info-section">
+                <div class="info-column">
+                    <h3>Tentang GameTest</h3>
+                    <p>GameTest adalah game platformer 2D yang dikembangkan dengan Unity Engine. Jelajahi dunia fantasi yang penuh warna, kumpulkan koin berharga, kalahkan musuh yang menantang, dan temukan rahasia tersembunyi dalam petualangan seru!</p>
+                    <div class="game-stats">
+                        <div class="stat">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <span>Rating Segala Umur</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-download" aria-hidden="true"></i>
+                            <span>002 Downloads</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="controls-column">
+                    <h3>Kontrol Game</h3>
+                    <div class="controls-grid">
+                        <div class="control-item">
+                            <span class="key">A / ←</span>
+                            <span class="action">Gerak Kiri</span>
+                        </div>
+                        <div class="control-item">
+                            <span class="key">D / →</span>
+                            <span class="action">Gerak Kanan</span>
+                        </div>
+                    </div>
+                    
+                    <div class="game-features">
+                        <div class="feature-item">
+                            <i class="fas fa-coins"></i>
+                            <span>Samapai garis finish sebelum tertangkap</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Hindari musuh dan rintangan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p>Loro Wani Studio mengembangkan game berbasis web menggunakan teknologi Unity WebGL untuk memberikan pengalaman gaming terbaik langsung di browser.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Game Lainnya</h3>
+                <a href="planets.html">Planets</a>
+                <a href="kaburi.html">Kaburi</a>
+                <a href="galatama.html">Galatama</a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Kontak</h3>
+                <p>Email: info@lorowani.com</p>
+                <p>Telepon: +62 888 8888 8888</p>
+                <p>Alamat: Jakarta, Jagakarsa, Indonesia</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Loro Wani Studio. All rights reserved. | GameTest Build v1.0</p>
+        </div> 
+    </footer>
+</body>
+</html>

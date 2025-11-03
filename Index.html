@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameTest - Loro Wani Studio</title>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/Loro.png" class="logo-icon" alt="Loro Wani Studio">
+                <span>Loro Wani Studio</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Beranda</a></li>
+                    <li><a href="#games">Game Lain</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#play">Main Game</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Slider Section -->
+        <section class="hero-slider" id="home">
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <!-- Radio buttons -->
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    
+                    <!-- Slide 1 -->
+                    <div class="slide slide-1">
+                        <div class="slide-content">
+                            <h2>GameTest Adventure</h2>
+                            <p>Jelajahi dunia fantasi yang penuh dengan petualangan menakjubkan dan tantangan seru!</p>
+                            <a href="Kaburi.html" class="slide-btn">Mainkan Sekarang</a>
+                        </div>
+                        <div class="slide-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="slide slide-2">
+                        <div class="slide-content">
+                            <h2>Planets Explorer</h2>
+                            <p>Jelajahi galaksi dan temukan planet-planet misterius dalam petualangan antariksa!</p>
+                            <a href="#games" class="slide-btn">Lihat Game Lain</a>
+                        </div>
+                        <div class="slide-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="slide slide-3">
+                        <div class="slide-content">
+                            <h2>Kaburi Mystery</h2>
+                            <p>Memecahkan misteri kuno dalam petualangan horor yang menegangkan!</p>
+                            <a href="#games" class="slide-btn">Jelajahi Koleksi</a>
+                        </div>
+                        <div class="slide-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Navigation Dots -->
+                    <div class="slider-nav">
+                        <label for="slide1" class="nav-dot" aria-label="Go to slide 1"></label>
+                        <label for="slide2" class="nav-dot" aria-label="Go to slide 2"></label>
+                        <label for="slide3" class="nav-dot" aria-label="Go to slide 3"></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Games Section -->
+        <section class="featured-section">
+            <div class="container">
+                <h2 class="section-title">Game Unggulan Kami</h2>
+                
+                <div class="featured-grid">
+                    <div class="featured-card">
+                        <div class="featured-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <h3>Planets Explorer</h3>
+                            <p>Jelajahi galaksi dan temukan planet-planet misterius dalam petualangan antariksa yang menakjubkan.</p>
+                            <a href="#games" class="featured-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-card">
+                        <div class="featured-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <h3>Kaburi Mystery</h3>
+                            <p>Memecahkan misteri kuno dalam petualangan horor yang penuh dengan teka-teki menegangkan.</p>
+                            <a href="#games" class="featured-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-card">
+                        <div class="featured-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                        <div class="featured-content">
+                            <h3>Galatama Warriors</h3>
+                            <p>Bertarung sebagai prajurit galaksi dalam pertempuran epik melawan alien invasor.</p>
+                            <a href="#games" class="featured-btn">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Cards Section -->
+        <section class="games-section" id="games">
+            <div class="container">
+                <h2 class="section-title">Koleksi Game Kami</h2>
+                <p class="section-subtitle">Temukan berbagai game seru yang kami kembangkan dengan teknologi terkini</p>
+                
+                <div class="games-grid">
+                    <!-- Card 1 -->
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>GameTest Adventure</h3>
+                            <p>Petualangan epik di dunia fantasi dengan grafis memukau, gameplay menantang, dan cerita yang menarik.</p>
+                            <div class="card-features">
+                                <span class="feature">2D Platform</span>
+                                <span class="feature">Fantasi</span>
+                                <span class="feature">Petualangan</span>
+                            </div>
+                            <a href="#play" class="card-btn">Mainkan Game</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Planets Explorer</h3>
+                            <p>Jelajahi tata surya dan temukan rahasia tersembunyi di setiap planet dengan teknologi eksplorasi mutakhir.</p>
+                            <div class="card-features">
+                                <span class="feature">Eksplorasi</span>
+                                <span class="feature">Sci-Fi</span>
+                                <span class="feature">Puzzle</span>
+                            </div>
+                            <a href="#play" class="card-btn">Coming Soon</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3 -->
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Kaburi Mystery</h3>
+                            <p>Memecahkan teka-teki kuno dalam petualangan horor yang penuh misteri dan kejutan menegangkan.</p>
+                            <div class="card-features">
+                                <span class="feature">Horor</span>
+                                <span class="feature">Misteri</span>
+                                <span class="feature">Point & Click</span>
+                            </div>
+                            <a href="#play" class="card-btn">Coming Soon</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 4 -->
+                    <div class="game-card">
+                        <div class="card-image">
+                            <div class="gif-wrapper">
+                                <img src="images/meowlGmbr.jpg" alt="Static Frame" class="static-frame">
+                                <img src="images/meowl.gif" alt="Animated GIF" class="animated-gif">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Galatama Warriors</h3>
+                            <p>Bertarung sebagai prajurit galaksi dalam pertempuran epik melawan alien dengan senjata canggih.</p>
+                            <div class="card-features">
+                                <span class="feature">Action</span>
+                                <span class="feature">Sci-Fi</span>
+                                <span class="feature">Shooter</span>
+                            </div>
+                            <a href="#play" class="card-btn">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2 class="section-title">Tentang Loro Wani Studio</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Kami adalah studio pengembangan game indie yang berfokus pada pembuatan pengalaman gaming yang menyenangkan, imersif, dan mudah diakses langsung melalui browser.</p>
+                        <p>Dengan teknologi terkini seperti Unity WebGL, kami menghadirkan game-game berkualitas tinggi yang dapat dimainkan kapan saja, di mana saja, tanpa perlu download atau instalasi yang rumit.</p>
+                        <div class="about-features">
+                            <div class="feature-item">
+                                <i class="fas fa-gamepad" aria-hidden="true"></i>
+                                <span>Game Berkualitas</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-bolt" aria-hidden="true"></i>
+                                <span>Loading Cepat</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                                <span>Responsive All Device</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/LoroWaniLogoRe.png" class="imageLoro" alt="Loro Wani Studio Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Tentang Kami</h3>
+                <p>Loro Wani Studio mengembangkan game berbasis web menggunakan teknologi Unity WebGL untuk memberikan pengalaman gaming terbaik langsung di browser tanpa batasan.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Game Lainnya</h3>
+                <a href="#games">Planets Explorer</a>
+                <a href="#games">Kaburi Mystery</a>
+                <a href="#games">Galatama Warriors</a>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Kontak & Support</h3>
+                <p><i class="fas fa-envelope"></i> Email: info@lorowani.com</p>
+                <p><i class="fas fa-phone"></i> Telepon: +62 888 8888 8888</p>
+                <p><i class="fas fa-map-marker-alt"></i> Alamat: Jakarta, Jagakarsa, Indonesia</p>
+                <div class="social-links">
+                    <a href="#" title="Facebook" aria-label="Visit our Facebook page">
+                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" title="Twitter" aria-label="Visit our Twitter page">
+                        <i class="fab fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" title="Instagram" aria-label="Visit our Instagram page">
+                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="#" title="YouTube" aria-label="Visit our YouTube channel">
+                        <i class="fab fa-youtube" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Loro Wani Studio. All rights reserved. | GameTest Build v1.0 | Developed with ❤️ using Unity WebGL</p>
+        </div> 
+    </footer>
+</body>
+</html>
