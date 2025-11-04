@@ -90,7 +90,6 @@ main {
     height: 70px;
     min-height: 500px;
     overflow: hidden;
-    background: linear-gradient(135deg, #8e1616 0%,  #210000 50%);
 }
 
 .slider-container {
@@ -248,7 +247,7 @@ main {
 /* ===== FEATURED SECTION ===== */
 .featured-section {
     padding: 80px 0;
-    background: rgba(255,255,255,0.05);
+
 }
 
 .section-title {
@@ -793,7 +792,7 @@ main {
 
 /* ===== FOOTER ===== */
 footer {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(4, 4, 4, 0.9);
     color: white;
     padding: 2rem 0 1rem;
     margin-top: auto;
